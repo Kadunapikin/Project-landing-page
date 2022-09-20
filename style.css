@@ -14,7 +14,6 @@
     flex-direction: column;
     align-content: space-around;
     justify-content: space-around;
-    height: 30rem;
 }
 
 .first-row {
@@ -35,13 +34,15 @@ align-items: flex-start;
 
 .second-row {
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 align-content: space-around;
-margin: 0px 200px;
+margin: 100px 200px;
+gap: 3rem;
 }
+
 .secondrow-right {
 width: 500px;
-height: 200px;
+height: 250px;
 background-color: rgb(137, 137, 158);
 display: flex;
 align-items: center;
@@ -50,9 +51,11 @@ justify-content: center;
 .secondrow-left {
 display: flex;
 flex-direction: column;
-width: 500px;
+width: 475px;
+height: 200px;
 align-content: center;
 justify-content: center;
+font-size: 17px;
 }
 
 .button {
@@ -60,8 +63,8 @@ background-color: rgb(57, 57, 238);
 color: whitesmoke;
 font-size: large;
 border-radius: 10px;
-padding: 1rem;
 width: 120px;
-height: 30px;
-border-bottom: 5px;
+height: 70px;
+margin: 1px;
+padding: 10px;
 } 
