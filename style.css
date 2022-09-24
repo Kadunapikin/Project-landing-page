@@ -101,3 +101,23 @@ border: 4px solid blue;
     flex-wrap: wrap;
     width: 150px;
 }
+
+.third-bigrow {
+    display: flex;
+    background-color: rgb(230, 225, 225);
+    height: 400px;
+}
+.third-firstrow {
+    display: flex;
+    height: 150px;
+    font-weight: lighter;
+    font-size: larger;
+    font-size: 35px;
+    margin: 80px 335px;
+}
+.thor {
+display: flex;
+font-size: 28px;
+justify-content: flex-end;
+margin-right:50px;
+}
