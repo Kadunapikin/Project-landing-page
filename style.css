@@ -26,6 +26,8 @@
 .firstrow-right {
 display: flex;
 align-items: flex-start;
+gap: 1rem;
+font-size: 16px;
 }
 .firstrow-left {
 display: flex;
@@ -124,9 +126,33 @@ margin-right:50px;
 
 .fourth-bigrow {
     background-color: white;
-    height: 300px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fourthrow-divcontainer {
-
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    border-radius: 8px;
+    background-color: rgb(58, 58, 238);
+    color: white;
+    justify-content: space-around;
+    align-items: center;  
+    font-size: 21px; 
+}
+.call {
+    display: flex;
+    font-size: 28px;
+}
+.fourthrow-button {
+    border: solid white;
+    background-color: rgb(58, 58, 238);
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
 }
